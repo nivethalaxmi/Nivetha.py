@@ -121,7 +121,29 @@ count=0
 for ch in x:
     if ch  in "aeiouAEIOU":
         count=count+1
-print(count)'''
+print(count)
+
+#task29
+for i in range(5):
+    for j in range(i+1):
+        print(j,end="")
+    print()
+    
+#task28
+for i in range(1,6):
+    for j in range(6):
+        print("*",end="")
+    print()
+    
+#task30
+for i in range(5):
+    for j in range(i,5):
+        print(j,end="")
+    print()
+
+
+
+    
     
 
 
